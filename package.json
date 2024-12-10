@@ -1,0 +1,27 @@
+{
+  "name": "use-throttle-callback",
+  "version": "1.0.0",
+  "description": "A custom React hook for throttling function calls.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "throttle",
+    "useThrottle"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/node": "^14.0.0",
+    "react": "^18.0.0",
+    "@types/react": "^18.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  }
+}
