@@ -14,7 +14,7 @@ yarn add use-throttle-callback
 
 ```tsx
 import React, { useState } from "react";
-import useThrottle from "use-throttle-hook";
+import useThrottle from "use-throttle-callback";
 
 const ExampleComponent: React.FC = () => {
   const [count, setCount] = useState(0);
@@ -37,8 +37,8 @@ export default ExampleComponent;
 const throttledFunction = useThrottle(callback: Function, delay: number): Function;
 ```
 
-- **callback**: 실행할 함수
-- **delay**: 지연 시간 (밀리초 단위)
+- **callback**: Function to execute
+- **delay**: Delay time of the function to execute (ms)
 
 ## License
 
